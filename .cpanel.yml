@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/anandcho/workout.anandchoudhary.in/
+    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp * $DEPLOYPATH
+
