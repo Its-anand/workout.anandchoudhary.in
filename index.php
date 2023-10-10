@@ -70,11 +70,18 @@
     </form>
 
     <script>
+
         let date = new Date();
         document.getElementById(date.getDay()).disabled=false;
          function formSubmit(){
             document.getElementById('form').submit();
          }
+    </script>
+
+    <script>
+        let 
+        if()
+
     </script>
 
          <?php
@@ -91,6 +98,7 @@
                 else
                 {?>
                   <form id='login'>
+                    <div id="cancelLogin">❌</div>
                     <img src="./images/lock.svg" alt="lock svg">
                     <div>
                     <input type="password" class='formInput' name="anandPass">
